@@ -1,0 +1,74 @@
+.container{
+    height: 100vh;
+    grid-template-rows: 50px 60% 40%;
+    display: grid;
+    gap: 1px;
+}
+.bar{
+    background-color: #1C222A;
+}
+.upper{
+    background-image: url("Images/image-2 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lower{
+    grid-template-columns: 50% 50%;
+    display: grid;
+    gap: 1px;
+}
+.cook{
+        background-image: url("Images/image4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+.restaurant{
+        background-image: url("Images/image3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+p{
+    font-size: 30px;
+    color: #C7C8C8;
+    text-decoration: underline;
+    text-align: center;
+    padding: 95px;
+    font-family: cursive;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 20px;
+    font-family: papyrus, fantasy;
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 125px;
+    font-family: papyrus, fantasy;
+}
+
+input{
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: solid 2px white;
+    border-radius: 25px;
+}
+
+.content{
+    padding: 110px;
+    text-align: center;
+}
+
+p1{
+    font-size: 30px;
+    color: #C7C8C8;
+    font-family: cursive;
+    text-decoration:underline;
+}

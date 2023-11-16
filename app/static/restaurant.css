@@ -1,0 +1,36 @@
+body{
+    background-color: #272D34;
+}
+.container{
+    height: 100vh;
+    grid-template-rows: 50px 400px 1fr 35px;
+    display: grid;
+    gap: 1px;
+}
+.bar{
+    background-color: #1C222A;
+}
+.upper{
+    background-image: url("Images/image1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 50% 50%;
+    display: grid;
+}
+.restaurant{
+    height: 70px;
+}
+h1, p1, p{
+    color: white;
+}
+.page{
+    text-align: center;
+    border: 1px solid white;
+}
+a{
+    color: white;
+    padding: 3px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='food.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="bar"></div>
+        <div class="upper"></div>
+        <div class="content">
+            {% for element in success %}
+            <div class="recipe">
+                <a href="/get_recipe/{{element}}">
+                    <p>{{element}}</p></a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

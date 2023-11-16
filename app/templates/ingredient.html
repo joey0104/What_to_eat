@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='ingredient.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="bar"></div>
+        <div class="upper"></div>
+        <div class="content">
+            <form action="/ingredient/{{copy}}" method="post" name="ingredient">
+                <input name="ingredient" type="text" style="width:200px; height: 50px; font-size: 20px" placeholder="ingredient">
+                <input type="submit">
+            </form>
+        </div>
+        <div class="sel">
+                {% for ingredient in ingredients %}
+                    <div class="selected" style="display:flex">
+                        <form action="/delete_selection/{{copy}}/{{ingredient}}" method="post">
+                            <button type="submit" class="button2" name="delete">
+                                <span class="button__icon">
+                                    <ion-icon name="close-circle-outline"></ion-icon>
+                                </span>
+                            </button>
+                        </form>
+                        <p>{{ingredient}}</p>
+                    </div>
+                {% endfor %}
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

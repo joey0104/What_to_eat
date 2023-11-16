@@ -1,0 +1,34 @@
+body{
+    background-color: #272D34;
+}
+.container{
+    height: 100vh;
+    grid-template-rows: 50px 400px 1fr;
+    display: grid;
+    gap: 1px;
+}
+.bar{
+    background-color: #1C222A;
+}
+.upper{
+    background-image: url("Images/image1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    width: 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    position: absolute;
+    margin-left: 300px;
+    top: 550px;
+    gap: 10px;
+}
+p{
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    height: 15px;
+    text-align: center;
+    padding: 20px
+}

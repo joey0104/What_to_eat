@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurants</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='restaurant.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="bar"></div>
+        <div class="upper">
+        </div>
+        <div class="content">
+            {% for x in range(length) %}
+                <div class="restaruant">
+                    <h1>{{names[x]}}</h1>
+                    <p>rate: {{rates[x]}}</p>
+                    <a href="{{links[x]}}">
+                            <button type="button" class="button1"> View Restaurant </button>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="page">
+                {% for x in range(max_page) %}
+                    <a href="/restaurant/{{location}}/{{x}}">{{x+1}}</a>
+                {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
