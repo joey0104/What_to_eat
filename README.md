@@ -10,3 +10,4 @@ Use the package manager pip to install
 * pandas for dataframe
 ### Images
 * Welcome page - displaying two options, input owned ingredients or location for recommended local restaurant <img width="1416" alt="Screen Shot 2023-11-16 at 9 03 52 PM" src="https://github.com/joey0104/OSU-Off-Campus-Housing/assets/87663068/cdd2fa02-39d2-4112-b186-fbc31d2bad99">
+* Ingredient page - allowing users to input their owned ingredients, which will further output food options. <img width="1438" alt="Screen Shot 2023-11-16 at 9 06 06 PM" src="https://github.com/joey0104/Food/assets/87663068/5a5b792b-fec2-4af9-aa4b-04a26d61285e">
