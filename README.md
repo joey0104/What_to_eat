@@ -11,3 +11,4 @@ Use the package manager pip to install
 ### Images
 * Welcome page - displaying two options, input owned ingredients or location for recommended local restaurant <img width="1416" alt="Screen Shot 2023-11-16 at 9 03 52 PM" src="https://github.com/joey0104/Food/assets/87663068/9227a22b-b1ee-49b9-bb60-05860aeca96a">
 * Ingredient page - allowing users to input their owned ingredients, which will further output food options. <img width="1438" alt="Screen Shot 2023-11-16 at 9 06 06 PM" src="https://github.com/joey0104/Food/assets/87663068/5a5b792b-fec2-4af9-aa4b-04a26d61285e">
+* Food page - Displaying food options with links to recipe (direction) <img width="1440" alt="Screen Shot 2023-11-16 at 9 06 21 PM" src="https://github.com/joey0104/Food/assets/87663068/7032a4e4-25a0-42e8-89f6-0337213c8d58">
