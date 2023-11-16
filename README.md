@@ -9,4 +9,4 @@ Use the package manager pip to install
 * sqlalchemy for database usage
 * pandas for dataframe
 ### Images
-* Welcome page - displaying two options, input owned ingredients or location for recommended local restaurant ![Uploading Screen Shot 2023-11-16 at 9.03.52 PM.png…]()
+* Welcome page - displaying two options, input owned ingredients or location for recommended local restaurant <img width="1416" alt="Screen Shot 2023-11-16 at 9 03 52 PM" src="https://github.com/joey0104/OSU-Off-Campus-Housing/assets/87663068/cdd2fa02-39d2-4112-b186-fbc31d2bad99">
