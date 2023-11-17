@@ -10,11 +10,11 @@ Use the package manager pip to install
 * pandas for dataframe
 ### Visuals
 
-* Welcome page - displaying two options, input owned ingredients or location for recommended local restaurant<img width="1415" alt="Screen Shot 2023-11-17 at 9 34 12 PM" src="https://github.com/joey0104/What_to_eat/assets/87663068/a82f5b55-9d94-4cdf-8fc6-ffd34e629a17">
+* Welcome page - displaying two options: input owned ingredients or location for recommended local restaurants<img width="1415" alt="Screen Shot 2023-11-17 at 9 34 12 PM" src="https://github.com/joey0104/What_to_eat/assets/87663068/a82f5b55-9d94-4cdf-8fc6-ffd34e629a17">
 * Ingredient page - allowing users to input their owned ingredients, which will further output food options. <img width="1432" alt="Screen Shot 2023-11-17 at 9 36 34 PM" src="https://github.com/joey0104/What_to_eat/assets/87663068/6b68da35-8be8-4de8-ba8c-9214a26c3248">
 
-* Food page - Displaying food options with links to recipe (direction) <img width="1429" alt="Screen Shot 2023-11-17 at 9 36 44 PM" src="https://github.com/joey0104/What_to_eat/assets/87663068/7a348adb-ec46-4b09-a458-54445847b41a">
+* Food page - Displaying food options with links to recipes (direction) <img width="1429" alt="Screen Shot 2023-11-17 at 9 36 44 PM" src="https://github.com/joey0104/What_to_eat/assets/87663068/7a348adb-ec46-4b09-a458-54445847b41a">
 
-* Restaurant page - After inputing location on Welcome page, restaruant page will be shown with recommended local restaurant retreived from yelp.com. View Resturant buttons lead to restaurant page on yelp. <img width="1435" alt="Screen Shot 2023-11-17 at 9 37 17 PM" src="https://github.com/joey0104/What_to_eat/assets/87663068/b7ac45c1-da0f-4902-9d1e-32c75d008d2f">
+* Restaurant page - After inputing location on Welcome page, restaruant page will be shown with recommended local restaurants retreived from yelp.com. View Resturant buttons lead to restaurant page on yelp. <img width="1435" alt="Screen Shot 2023-11-17 at 9 37 17 PM" src="https://github.com/joey0104/What_to_eat/assets/87663068/b7ac45c1-da0f-4902-9d1e-32c75d008d2f">
 <img width="1436" alt="Screen Shot 2023-11-17 at 9 37 32 PM" src="https://github.com/joey0104/What_to_eat/assets/87663068/ac6064e4-a114-4727-9ecd-60414a332031">
 
