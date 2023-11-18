@@ -1,4 +1,4 @@
-<img width="1415" alt="Screen Shot 2023-11-17 at 9 34 12 PM" src="https://github.com/joey0104/What_to_eat/assets/87663068/0d154afd-7925-40af-84c8-4e0daf412ac3"># What to eat ?
+# What to eat ?
 This website is designed to enhance the user's cooking experience or dining choices. 
 ## Description
 This webiste is assembled with Python, HTML, and CSS, incorporating with SQLalchemy, Flask, Pandas, BeautifulSoup4, and more. This platform carries two primary functions. Firstly, it generates food options with the corresponding recipe, retrieved from data, based on the user’s inputted ingredients. Secondly, it yields recommendations for restaurants located near the user's specified location.
